@@ -24,8 +24,8 @@ const Projects: React.FC = () => {
   description: "A modern portfolio built using the MERN stack and TypeScript, featuring an interactive AI chatbot integrated via n8n and LangChain to answer recruiter-specific questions about my skills, projects, and experience.",
   image: "/port.png",
   tech: ["TailwindCSS", "React", "TypeScript", "n8n", "LangChain"],
-  github: "#",
-  demo: "#"
+  github: "https://github.com/rishiguptha54/ai-assistant-portfolio",
+  demo: "https://www.rishi45.dev/"
 },
 {
   title: "FeastXpress – Food Delivery App",
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
   description: "A real-time chatting platform with an interactive UI, enabling seamless communication through a responsive web interface.",
   image: "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["HTML", "CSS", "JavaScript"],
-  github: "#",
+  github: "https://github.com/rishiguptha54/chating",
   demo: "#"
 },
 {
