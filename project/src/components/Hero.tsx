@@ -163,6 +163,10 @@ const Hero: React.FC = () => {
           Neelisetty
         </motion.h1>
 
+
+
+
+
         <p className="text-lg md:text-xl text-white/90 mb-6">
           "Crafting intelligent websites and apps. Automating with AI. Powering insights with data."
         </p>
@@ -175,7 +179,7 @@ const Hero: React.FC = () => {
             <Linkedin className="w-6 h-6 text-white hover:text-cyan-300" />
           </a>
           
-          <a href="https://leetcode.com/rishiguptha54" target="_blank" rel="noopener noreferrer"
+          <a href="https://leetcode.com/u/RishiGuptha45/" target="_blank" rel="noopener noreferrer"
               className="hover:scale-110 transition-all"
             >
           <img src="/leetcode.svg" alt="LeetCode" className="w-6 h-6 filter brightness-0 invert hover:brightness-100 hover:invert-0" />
