@@ -135,9 +135,8 @@ const About: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer who loves creating innovative solutions that make a difference. 
-            With a strong foundation in both frontend and backend technologies, I enjoy bringing ideas to life 
-            through clean code and exceptional user experiences.
+           Hey, I'm Rishi — a full-stack developer who loves crafting bold, user-centric digital experiences.
+From sleek interfaces to scalable backend systems, I bring ideas to life with clean code, creative thinking, and a passion for innovation. Whether it's building a web app, designing a product, or optimizing performance — I build with purpose and precision.
           </p>
         </div>
 
