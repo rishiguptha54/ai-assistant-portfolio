@@ -63,17 +63,21 @@
 // export default Hero;
 
 
+
+
+
+
+
+
+
+
 import React from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { Github, Linkedin, Mail, ChevronDown, Link } from 'lucide-react';
-import { Typewriter } from 'react-simple-typewriter'; // ✅ NEW IMPORT
+import { Typewriter } from 'react-simple-typewriter'; // ✅ Added import
 import './Hero.css';
 
-type HeroProps = {
-  scrollToProjects: () => void;
-};
-
-const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
+const Hero: React.FC = () => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -93,11 +97,38 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
       onMouseMove={handleMouseMove}
       className="relative min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-24 text-white overflow-hidden bg-[#0f172a]"
     >
+      {/* Fixed Gradient Background Animation */}
       <div className="absolute inset-0 z-0 bg-gradient-to-r from-cyan-500 via-purple-700 to-indigo-800 animate-gradient-x bg-[length:400%_400%]"></div>
 
+      {/* Animated Floating Tech Icons */}
+      {/* ✅ Unchanged icon list */}
+      <img src="/react.png" className="w-10 absolute top-10 left-10 opacity-20 float-1 z-0" />
+      <img src="/figma.png" className="w-10 absolute top-16 left-24 opacity-20 float-2 z-0" />
+      <img src="/numpy.png" className="w-12 absolute top-20 left-[30%] opacity-20 float-3 z-0" />
+      <img src="/supabase.png" className="w-12 absolute bottom-10 right-20 opacity-20 float-4 z-0" />
+      <img src="/kotlin.png" className="w-10 absolute top-[40%] right-[10%] opacity-20 float-5 z-0" />
+      <img src="/github.png" className="w-10 absolute bottom-20 left-[30%] opacity-20 float-2 z-0" />
+      <img src="/n8n.png" className="w-10 absolute top-32 left-[50%] opacity-20 float-1 z-0" />
+      <img src="/typescript.png" className="w-10 absolute top-20 right-[40%] opacity-20 float-3 z-0" />
+      <img src="/tailwindcss.png" className="w-10 absolute bottom-32 left-[20%] opacity-20 float-5 z-0" />
+      <img src="/python.png" className="w-10 absolute top-16 right-[30%] opacity-20 float-4 z-0" />
+      <img src="/postman.png" className="w-10 absolute bottom-10 left-[40%] opacity-20 float-1 z-0" />
+      <img src="/nodedotjs.png" className="w-10 absolute bottom-16 right-[30%] opacity-20 float-2 z-0" />
+      <img src="/mongodb.png" className="w-10 absolute top-12 right-[20%] opacity-20 float-3 z-0" />
+      <img src="/docker.png" className="w-10 absolute bottom-24 left-[50%] opacity-20 float-4 z-0" />
+      <img src="/leetcode.png" className="w-10 absolute top-8 left-[70%] opacity-20 float-5 z-0" />
+      <img src="/firebase.png" className="w-10 absolute top-4 right-[60%] opacity-20 float-2 z-0" />
+      <img src="/html5.png" className="w-10 absolute bottom-4 left-[70%] opacity-20 float-1 z-0" />
+      <img src="/anaconda.png" className="w-10 absolute top-2 left-[80%] opacity-20 float-3 z-0" />
+      <img src="/codechef.png" className="w-10 absolute bottom-2 right-[80%] opacity-20 float-5 z-0" />
+      <img src="/vite.png" className="w-10 absolute top-[5%] left-[90%] opacity-20 float-4 z-0" />
+      <img src="/javascript.png" className="w-10 absolute bottom-[5%] right-[90%] opacity-20 float-2 z-0" />
+
+      {/* Floating Blobs */}
       <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-green-400 rounded-full mix-blend-overlay blur-3xl opacity-20 animate-blob"></div>
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-blue-500 rounded-full mix-blend-overlay blur-3xl opacity-20 animate-blob delay-1000"></div>
 
+      {/* Parallax Image */}
       <motion.div
         style={{ rotateX: springRotateX, rotateY: springRotateY }}
         className="z-10 mb-10 md:mb-0"
@@ -114,6 +145,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
         </motion.div>
       </motion.div>
 
+      {/* Right Text Content */}
       <motion.div
         className="z-10 max-w-xl text-right md:text-left"
         initial={{ opacity: 0, x: 60 }}
@@ -138,7 +170,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
           Neelisetty
         </motion.h1>
 
-        {/* 🔤 Typewriter Effect */}
+        {/* ✅ Typewriter Effect */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -163,7 +195,6 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
           />
         </motion.div>
 
-        {/* ✨ Keep original tagline below */}
         <p className="text-lg md:text-xl text-white/90 mb-6">
           "Crafting intelligent websites and apps. Automating with AI. Powering insights with data."
         </p>
@@ -178,7 +209,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
           <a href="https://leetcode.com/u/RishiGuptha45/" target="_blank" rel="noopener noreferrer" className="hover:scale-110 transition-all">
             <img src="/leetcode.svg" alt="LeetCode" className="w-6 h-6 filter brightness-0 invert hover:brightness-100 hover:invert-0" />
           </a>
-          <a href="mailto:rishiguptha45@gmail.com" className="hover:scale-110 transition-all">
+          <a href="rishiguptha45@gmail.com" className="hover:scale-110 transition-all">
             <Mail className="w-6 h-6 text-white hover:text-cyan-300" />
           </a>
           <a href="https://drive.google.com/file/d/1TbjZ1f6nAKEmp_4cRu3_QIrOIFLr7aY4/view?usp=sharing" className="hover:scale-110 transition-all">
@@ -186,14 +217,12 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
           </a>
         </div>
 
-        <button
-          onClick={scrollToProjects}
-          className="px-6 py-3 bg-gradient-to-r from-teal-500 to-indigo-600 text-white rounded-full font-semibold hover:scale-105 hover:shadow-xl transition-all"
-        >
+        <button className="px-6 py-3 bg-gradient-to-r from-teal-500 to-indigo-600 text-white rounded-full font-semibold hover:scale-105 hover:shadow-xl transition-all">
           View My Work →
         </button>
       </motion.div>
 
+      {/* Scroll icon */}
       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
         <ChevronDown className="w-6 h-6 text-white/60" />
       </div>
