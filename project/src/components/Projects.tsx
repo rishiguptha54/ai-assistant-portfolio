@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["Kotlin", "Java", "Android"],
   github: "https://github.com/rishiguptha54/feastXpress",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/feastXpress"
 },
 {
   title: "VidO – Real-Time Video Meeting Platform",
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
   image: "/video.png",
   tech: ["MongoDB", "Express", "React", "Node.js", "Socket.io", "WebRTC"],
   github: "https://github.com/rishiguptha54/vidO",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/vidO"
 },
 {
   title: "Interactive Chatting Web App",
@@ -49,7 +49,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["HTML", "CSS", "JavaScript"],
   github: "https://github.com/rishiguptha54/chating",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/chating"
 },
 {
   title: "Lumber Spain – X-ray Image Classification",
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
   image: "/lumber.png",
   tech: ["Python", "Colaboratory", "EfficientNet", "X-ray Image Classification"],
   github: "https://github.com/rishiguptha54/Lumber_spine_efficientNet",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/Lumber_spine_efficientNet"
 },
 {
   title: "Amazon Sales Analysis & Dashboard",
@@ -65,7 +65,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["Python", "NumPy", "Pandas", "Power BI"],
   github: "https://github.com/rishiguptha54/amazon-sales",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/amazon-sales"
 },
 {
   title: "FDI Data – Exploratory Data Analysis",
@@ -73,7 +73,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/4386368/pexels-photo-4386368.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["Python", "NumPy", "Pandas", "EDA"],
   github: "https://github.com/rishiguptha54/FDI-PROJECT",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/FDI-PROJECT"
 },
 {
   title: "Twitter Sentiment Analysis",
@@ -81,7 +81,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["Python", "NumPy", "Pandas", "Machine Learning"],
   github: "https://github.com/rishiguptha54/Twitter_sentiment_analysis",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/Twitter_sentiment_analysis"
 },
 {
   title: "Stock Price Prediction",
@@ -89,7 +89,7 @@ const Projects: React.FC = () => {
   image: "stock.png",
   tech: ["Python", "NumPy", "Pandas", "Keras", "Streamlit"],
   github: "https://github.com/rishiguptha54/Stock-Predictor",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/Stock-Predictor"
 },
 {
   title: "Emotion Detection – NLP Model Comparison",
@@ -97,7 +97,7 @@ const Projects: React.FC = () => {
   image: "emotion.png",
   tech: ["Python", "GRU", "LSTM", "Bi-LSTM", "BERT", "NLP"],
   github: "https://github.com/rishiguptha54/emotion_detecion_analysis_models",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/emotion_detecion_analysis_models"
 },
 {
   title: "FIFA Data Analysis & Visualization",
@@ -105,7 +105,7 @@ const Projects: React.FC = () => {
   image: "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=800",
   tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "EDA"],
   github: "https://github.com/rishiguptha54/FIFA",
-  demo: "#"
+  demo: "https://github.com/rishiguptha54/FIFA"
 },
   ];
 
@@ -180,12 +180,13 @@ const Projects: React.FC = () => {
                     <Github className="w-4 h-4" />
                     <span className="text-sm">Code</span>
                   </a>
+                  
                   <a
                     href={project.demo}
                     className="flex items-center space-x-2 text-gray-300 hover:text-teal-300 transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    <span className="text-sm">Demo</span>
+                      <span className="text-sm">Demo</span>
                   </a>
                 </div>
               </div>

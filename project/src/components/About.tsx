@@ -135,8 +135,11 @@ const About: React.FC = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-teal-400 to-blue-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
-           Hey, I'm Rishi — a full-stack developer who loves crafting bold, user-centric digital experiences.
+           Hey, I'm Rishi Guptha— a full-stack developer who loves crafting bold, user-centric digital experiences.
 From sleek interfaces to scalable backend systems, I bring ideas to life with clean code, creative thinking, and a passion for innovation. Whether it's building a web app, designing a product, or optimizing performance — I build with purpose and precision.
+          </p>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+Recently, I was selected for the Amazon ML Summer School 2025, ranking among the top 4% of over 80,000 applicants, where I’m diving deep into advanced topics in machine learning, deep learning, and generative AI.
           </p>
         </div>
 

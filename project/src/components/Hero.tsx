@@ -77,7 +77,12 @@ import { Github, Linkedin, Mail, ChevronDown, Link } from 'lucide-react';
 import { Typewriter } from 'react-simple-typewriter'; // ✅ Added import
 import './Hero.css';
 
-const Hero: React.FC = () => {
+interface HeroProps {
+  scrollToProjects: () => void;
+}
+
+// const Hero: React.FC = () => 
+const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
@@ -169,6 +174,13 @@ const Hero: React.FC = () => {
         >
           Neelisetty
         </motion.h1>
+{/* Amazon ML School Title */}
+<p className="text-lg md:text-xl font-semibold mb-4 text-yellow-300">
+  ✨ Trainee – Amazon ML Summer School 2025 ✨
+</p>
+
+
+
 
         {/* ✅ Typewriter Effect */}
         <motion.div
@@ -217,9 +229,13 @@ const Hero: React.FC = () => {
           </a>
         </div>
 
-        <button className="px-6 py-3 bg-gradient-to-r from-teal-500 to-indigo-600 text-white rounded-full font-semibold hover:scale-105 hover:shadow-xl transition-all">
+        <button 
+        onClick={scrollToProjects}
+        className="px-6 py-3 bg-gradient-to-r from-teal-500 to-indigo-600 text-white rounded-full font-semibold hover:scale-105 hover:shadow-xl transition-all">
           View My Work →
         </button>
+        
+
       </motion.div>
 
       {/* Scroll icon */}
@@ -231,3 +247,9 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
+
+
+
+
+
