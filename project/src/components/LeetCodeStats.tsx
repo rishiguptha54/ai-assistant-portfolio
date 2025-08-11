@@ -127,6 +127,7 @@ const LeetCodeStats: React.FC = () => {
           <div className="flex flex-wrap justify-center gap-6">
             <img src="/50days 2025.gif" alt="Badge" className="w-24 h-24" />
             <img src="/100badge2025.gif" alt="Badge" className="w-24 h-24" />
+            <img src="/200p2025.gif" alt="Badge" className="w-24 h-24" />
             <img src="/50badge2024.gif" alt="Badge" className="w-24 h-24" />
             <img src="/100badge2024.gif" alt="Badge" className="w-24 h-24" />
             <img src="/pandas.gif" alt="Badge" className="w-24 h-24" />
