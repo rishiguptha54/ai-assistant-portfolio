@@ -2,6 +2,13 @@ import React from 'react';
 
 const Certifications: React.FC = () => {
   const certificates = [
+    { 
+      title: "MongoDB Associate Database Administrator",
+      description: "Validated expertise in managing, securing, and optimizing MongoDB deployments, including performance tuning, backup/restore, and replication.",
+      issuer: "mongoDB",
+      link: "https://www.credly.com/badges/76023355-2f0d-4706-bef9-88d9e64e21f3/public_url",
+      image: "/mongo1.png"
+    },
     {
       title: "Android App Development",
       description: "Completed professional training on native Android app development using Kotlin through Imarticus Learning.",
