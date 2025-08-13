@@ -224,7 +224,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToProjects }) => {
           <a href="rishiguptha45@gmail.com" className="hover:scale-110 transition-all">
             <Mail className="w-6 h-6 text-white hover:text-cyan-300" />
           </a>
-          <a href="https://drive.google.com/file/d/1TbjZ1f6nAKEmp_4cRu3_QIrOIFLr7aY4/view?usp=sharing" className="hover:scale-110 transition-all">
+          <a href="https://drive.google.com/file/d/1i9OPYX9DGV-s3Vc_0G4TKwoBJjQWGd_K/view?usp=sharing" className="hover:scale-110 transition-all">
             <Link className="w-6 h-6 text-white hover:text-cyan-300" />
           </a>
         </div>
