@@ -12,6 +12,14 @@ const Projects: React.FC = () => {
   demo: "https://praze-ai-agent.vercel.app/"
 },
 {
+  title: "DesiDukaan - Connecting Local Shops to Digital India",
+  description: "A platform for local shopkeepers to manage products and orders, and for customers to shop easily with secure payments and real-time support via an integrated chatbot",
+  image: "/desi.png",
+  tech: ["React", "TypeScript", "TailwindCSS", "Paypal Sandbox", "MongoDB", "Express", "Node.js"],
+  github: "https://github.com/rishiguptha54/DesiDukaan",
+  demo: "https://desi-dukaan-inky.vercel.app/"
+},
+{
   title: "Wanderlust – Room Booking Platform",
   description: "A full-featured room booking website with user authentication, listing management, real-time availability, and interactive maps using Mapbox.",
   image: "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800",
