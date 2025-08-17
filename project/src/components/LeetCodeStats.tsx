@@ -125,11 +125,12 @@ const LeetCodeStats: React.FC = () => {
         <div className="text-center animate-fade-in-up delay-500">
           <h3 className="text-2xl font-semibold mb-6 text-yellow-300">Badge Collection</h3>
           <div className="flex flex-wrap justify-center gap-6">
-            <img src="/50days 2025.gif" alt="Badge" className="w-24 h-24" />
-            <img src="/100badge2025.gif" alt="Badge" className="w-24 h-24" />
+            <img src="/365gif.gif" alt="Badge" className="w-24 h-24" />
             <img src="/200p2025.gif" alt="Badge" className="w-24 h-24" />
-            <img src="/50badge2024.gif" alt="Badge" className="w-24 h-24" />
+            <img src="/100badge2025.gif" alt="Badge" className="w-24 h-24" />
+            <img src="/50days 2025.gif" alt="Badge" className="w-24 h-24" />
             <img src="/100badge2024.gif" alt="Badge" className="w-24 h-24" />
+            <img src="/50badge2024.gif" alt="Badge" className="w-24 h-24" />
             <img src="/pandas.gif" alt="Badge" className="w-24 h-24" />
             <img src="/sql50.gif" alt="Badge" className="w-24 h-24" />
           </div>
