@@ -80,7 +80,7 @@ const LeetCodeStats: React.FC = () => {
           Explore my milestones, badges, and the consistent discipline shaping my coding journey.
         </p>
       </div>
-
+      
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 items-center text-center animate-fade-in-up mt-12">
         {/* Left: Stat Summary */}
         <div className="space-y-4">
@@ -94,33 +94,45 @@ const LeetCodeStats: React.FC = () => {
         </div>
 
         {/* Middle: Circular Chart */}
-        <div className="w-60 h-60 mx-auto animate-float-medium">
-          <CircularProgressbarWithChildren
-            value={solvedPercent}
-            strokeWidth={10}
-            styles={buildStyles({
-              pathColor: "#fbbf24",
-              trailColor: "#1e293b",
-            })}
-          >
-            <div className="text-white text-center">
-              <p className="text-3xl font-bold">{data?.totalSolved}</p>
-              <p className="text-sm text-gray-300">
-                / {data?.totalQuestions} Solved
-              </p>
-              <p className="text-yellow-400 text-xs mt-1">✔ Completion</p>
-            </div>
-          </CircularProgressbarWithChildren>
-          <a
-            href="https://leetcode.com/u/RishiGuptha45/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block mt-4 text-sm text-yellow-400 hover:underline text-center"
-          >
-            View Full Profile →
-          </a>
-        </div>
+        {/* Middle: Circular Chart */}
+<div className="relative w-60 mx-auto flex flex-col items-center animate-float-medium bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-6 border border-white/20">
 
+  {/* Ribbon Badge */}
+  <div className="absolute -top-3 -right-3 bg-gradient-to-r from-yellow-500 to-amber-400 text-white font-semibold text-xs px-3 py-1 rounded-full shadow-md transform rotate-12 border border-yellow-300">
+    🔥 Top 30%
+  </div>
+
+  <CircularProgressbarWithChildren
+    value={solvedPercent}
+    strokeWidth={10}
+    styles={buildStyles({
+      pathColor: "#fbbf24",
+      trailColor: "#1e293b",
+    })}
+  >
+    <div className="text-white text-center">
+      <p className="text-3xl font-bold">{data?.totalSolved}</p>
+      <p className="text-sm text-gray-300">
+        / {data?.totalQuestions} Solved
+      </p>
+      <p className="text-yellow-400 text-xs mt-1">✔ Completion</p>
+    </div>
+  </CircularProgressbarWithChildren>
+
+  <a
+    href="https://leetcode.com/u/RishiGuptha45/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block mt-4 text-sm text-yellow-400 hover:underline text-center"
+  >
+    View Full Profile →
+  </a>
+</div>
+
+
+
+
+       
         {/* Right: Badge Showcase */}
         <div className="text-center animate-fade-in-up delay-500">
           <h3 className="text-2xl font-semibold mb-6 text-yellow-300">Badge Collection</h3>

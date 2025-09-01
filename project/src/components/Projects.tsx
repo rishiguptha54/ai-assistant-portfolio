@@ -12,10 +12,31 @@ const Projects: React.FC = () => {
   demo: "https://praze-ai-agent.vercel.app/"
 },
 {
+  title: "FlightOpsPro",
+  description:
+    " A comprehensive flight delay prediction system using machine learning models and graph algorithms to optimize airline operations and enhance passenger experience.",
+  image:
+    "https://images.pexels.com/photos/358220/pexels-photo-358220.jpeg?auto=compress&cs=tinysrgb&w=1200", // aviation runway image
+  tech: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "scikit-learn",
+    "LightGBM",
+    "XGBoost",
+    "NetworkX",
+    "React",
+    "FastAPI"
+  ],
+  github: "https://github.com/rishiguptha54/FlightOpsPro_45",
+  demo: "https://flight-delay-predict-cspk.bolt.host/"
+}
+,
+{
   title: "DesiDukaan - Connecting Local Shops to Digital India",
   description: "A platform for local shopkeepers to manage products and orders, and for customers to shop easily with secure payments and real-time support via an integrated chatbot",
   image: "/desi.png",
-  tech: ["React", "TypeScript", "TailwindCSS", "Paypal Sandbox", "MongoDB", "Express", "Node.js"],
+  tech: ["React", "TypeScript", "Paypal Sandbox", "MongoDB", "Express", "Node.js"],
   github: "https://github.com/rishiguptha54/DesiDukaan",
   demo: "https://desi-dukaan-inky.vercel.app/"
 },

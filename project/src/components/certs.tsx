@@ -3,6 +3,13 @@ import React from 'react';
 const Certifications: React.FC = () => {
   const certificates = [
     { 
+      title: "AWS Certified Cloud Practitioner",
+      description: "Demonstrated foundational knowledge of AWS cloud services, architecture, and best practices for deploying and managing applications on AWS.",
+      issuer: "AWS",
+      link: "https://www.credly.com/badges/7b96d1bb-06e7-43bd-9373-0f88a850b7a4/public_url",
+      image: "/amazon.png"
+    },
+    { 
       title: "MongoDB Associate Database Administrator",
       description: "Validated expertise in managing, securing, and optimizing MongoDB deployments, including performance tuning, backup/restore, and replication.",
       issuer: "mongoDB",
