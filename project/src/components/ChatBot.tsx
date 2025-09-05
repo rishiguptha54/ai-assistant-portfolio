@@ -396,7 +396,7 @@ const ChatBot: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hi there! I'm Tara, Rishi's personal AI assistant. How can I help you today?",
+      text: "Hi there! I'm Siri, Rishi's personal AI assistant. How can I help you today?",
       isUser: false,
       timestamp: new Date(),
     },
