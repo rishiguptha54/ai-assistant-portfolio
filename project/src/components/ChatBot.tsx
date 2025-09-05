@@ -440,7 +440,7 @@ const ChatBot: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('https://diviner4.app.n8n.cloud/webhook/chat', {
+      const response = await fetch('https://sai7557.app.n8n.cloud/webhook/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
