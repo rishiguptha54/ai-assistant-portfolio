@@ -521,7 +521,7 @@ const ChatBot: React.FC = () => {
                   className="w-20 h-20"
                 />
                 <div>
-                  <h3 className="font-semibold text-white">Tara</h3>
+                  <h3 className="font-semibold text-white">Siri</h3>
                   <p className="text-xs text-white/80">Rishi's AI Assistant</p>
                 </div>
               </div>
