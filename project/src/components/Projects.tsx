@@ -40,6 +40,13 @@ const Projects: React.FC = () => {
   github: "https://github.com/rishiguptha54/DesiDukaan",
   demo: "https://desi-dukaan-inky.vercel.app/"
 },
+ {
+  title: "Code_Crux – Code Analyzer & Optimizer",
+  description: "A web app that analyzes and optimizes code snippets using Groq model, providing suggestions for improvements and best practices.",
+  image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+  tech: ["React", "JavaScript", "Groq", "TailwindCSS"],
+  github: "https://github.com/rishiguptha54/Code_Crux"
+ },
 {
   title: "Wanderlust – Room Booking Platform",
   description: "A full-featured room booking website with user authentication, listing management, real-time availability, and interactive maps using Mapbox.",
