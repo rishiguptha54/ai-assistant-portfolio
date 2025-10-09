@@ -31,6 +31,13 @@ const Certifications: React.FC = () => {
       image: "/oracle.png"
     },
     {
+      title: "Udemy - UI/UX Design ",
+      description: "Completed comprehensive UI/UX design course covering user research, wireframing, prototyping, and usability testing.",
+      issuer: "Udemy",
+      link: "https://www.udemy.com/certificate/UC-ed0ac1c4-05ef-4cc6-b3d7-bc79dee996f3/",
+      image: "/image.png"
+    },
+    {
       title: "DSA Skills Certification",
       description: "Recognized for strong data structures and algorithm skills through HackerRank's certification program.",
       issuer: "HackerRank",
