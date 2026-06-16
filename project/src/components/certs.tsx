@@ -38,6 +38,13 @@ const Certifications: React.FC = () => {
       image: "/image.png"
     },
     {
+      title: "Introduction to Model Context Protocol ",
+      description: "Learned how to build modular AI applications using MCP to connect Claude with external tools and data sources.",
+      issuer: "Anthropic",
+      link: "https://verify.skilljar.com/c/ew5krj7uyess",
+      image: "/anthropic.png"
+    },
+    {
       title: "DSA Skills Certification",
       description: "Recognized for strong data structures and algorithm skills through HackerRank's certification program.",
       issuer: "HackerRank",
@@ -57,6 +64,13 @@ const Certifications: React.FC = () => {
       issuer: "NPTEL",
       link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:614596e0-d9d9-4b95-af3a-0607ce7638cf",
       image: "/nptel.png"
+    },
+    {
+      title: "Udemy - Test Automation foundation ",
+      description: "Completed Test Automation Foundations course on Udemy, gaining knowledge of automation testing concepts, test frameworks, scripting basics, and best practices for quality assurance.",
+      issuer: "Udemy",
+      link: "https://www.udemy.com/certificate/UC-6b8645d1-3584-4361-9694-c4dc8fbc4d5f/",
+      image: "/image.png"
     },
     {
       title: "MATLAB Onramp Certification",
